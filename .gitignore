@@ -1,6 +1,6 @@
 .env
 
-backstage/*
+# backstage/*
 !backstage/exp.exp
 
 logs/*
