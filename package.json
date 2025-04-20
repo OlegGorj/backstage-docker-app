@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@backstage/plugin-api-docs": "^0.12.6",
     "@backstage/plugin-auth-node": "^0.6.2",
     "@backstage/plugin-permission-node": "^0.9.1"
   }

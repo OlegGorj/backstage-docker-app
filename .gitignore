@@ -7,3 +7,4 @@ logs/*
 
 nginx/ssl/*
 !nginx/ssl/.gitkeep
+node_modules
