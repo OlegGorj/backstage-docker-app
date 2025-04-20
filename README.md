@@ -10,10 +10,11 @@ Make sure you have the following installed:
 - [Yarn](https://yarnpkg.com/getting-started/install)
 - [Git](https://git-scm.com/)
 
+Set path to node 20:
 ```
 export PATH="/usr/local/opt/node@20/bin:$PATH"
 ```
-s
+
 ```bash
 cd ./backstage
 ```
@@ -35,6 +36,19 @@ yarn dev
 
 Backstage should now be running at [http://localhost:3000](http://localhost:3000).
 You can now start developing your Backstage application. The development server will automatically reload when you make changes to the code.
+
+
+## Next steps
+- [Create a new Backstage plugin](https://backstage.io/docs/plugins/create-a-plugin)
+- [Add a new component](https://backstage.io/docs/features/software-catalog/adding-a-component)
+- [Add a new API](https://backstage.io/docs/features/software-catalog/adding-an-api)
+- [Add a new template](https://backstage.io/docs/features/software-templates/adding-a-template)
+- [Add a new techdocs](https://backstage.io/docs/features/techdocs/adding-techdocs)
+- [Add a new authentication provider](https://backstage.io/docs/auth/adding-authentication-providers)
+- [Add a new backend plugin](https://backstage.io/docs/plugins/backend-plugins)
+- [Add a new frontend plugin](https://backstage.io/docs/plugins/frontend-plugins)
+
+- Properly dockerize the application for production use
 
 
 ## Learn more
