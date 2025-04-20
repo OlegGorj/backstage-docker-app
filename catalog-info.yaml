@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage
-  description: An example of a Backstage application.
+  description: Backstage application.
   # Example for optional annotations
   # annotations:
   #   github.com/project-slug: backstage/backstage
@@ -19,19 +19,16 @@ spec:
   rules:
     - allow: [Component, System, API, Resource, Location]
   locations:
-    # Local example data, file locations are relative to the backend process, typically `packages/backend`
     - type: file
-      target: ../examples/entities.yaml
+      target: backstage/examples/entities.yaml
 
-    # Local example template
     - type: file
-      target: ../examples/template/template.yaml
+      target: backstage/examples/template/template.yaml
       rules:
         - allow: [Template]
 
-    # Local example organizational data
     - type: file
-      target: ../examples/org.yaml
+      target: backstage/examples/org.yaml
       rules:
         - allow: [User, Group]
 
